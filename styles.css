@@ -21,7 +21,7 @@ html {
     padding: 50px;
     text-align: justify;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
-    transform: scale(0.98);
+    transform: scale(1);
     transition: transform 0.5s;
   }
   
@@ -49,6 +49,11 @@ html {
     position: relative;
     z-index: 1;
   }
+
+  .fixed-nav nav {
+     position: fixed;
+     box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  }
   
   nav ul {
     margin: 0;
@@ -63,6 +68,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .fixed-nav li.logo {
+      max-width: 500px;
   }
   
   li.logo {
