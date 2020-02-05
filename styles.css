@@ -27,7 +27,7 @@ html {
   
   header {
     text-align: center;
-    height: 50vh;
+    height: 92vh;
     background: url(fern-918570_1920.jpg) bottom center no-repeat;
     background-size: cover;
     display: flex;
@@ -45,7 +45,7 @@ html {
     background: black;
     top: 0;
     width: 100%;
-    transition: all 0.5s;
+    transition: all 0.8s;
     position: relative;
     z-index: 1;
   }
@@ -57,7 +57,7 @@ html {
   
   nav ul {
     margin: 0;
-    padding:0;
+    padding: 0;
     list-style: none;
     display: flex;
   }
@@ -78,7 +78,7 @@ html {
     max-width: 0;
     overflow: hidden;
     background: white;
-    transition: all .5s;
+    transition: all 0.8s;
     font-weight: 600;
     font-size: 30px;
   }
@@ -89,7 +89,7 @@ html {
   
   nav a {
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
     display: inline-block;
     color: white;
     transition: all 0.2s;
